@@ -3,8 +3,9 @@ tittle {
     font-size: 60px
 }
 img {
-    float:right
-    object-position:right
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
 .latestPost {
     width:200px;
