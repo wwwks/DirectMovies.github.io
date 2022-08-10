@@ -2,6 +2,10 @@ tittle {
     color: black;
     font-size: 60px
 }
+img {
+    float:right
+    object-position:right
+}
 .latestPost {
     width:200px;
     float:left;
