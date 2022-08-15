@@ -38,3 +38,59 @@ img {
 body {
     background-color: white;
 }
+
+.featured-thumbnail img {
+    margin-bottom: 0;
+    width: 200px;
+    float: center;
+}
+.featured-thumbnail img {
+    margin-bottom: 0;
+    width: 100%;
+    float: left;
+}
+.wp-post-image {
+    float: left;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: ;
+    vertical-align: baseline;
+}
+img, video, object {
+    max-width: 100%;
+    height: auto!important;
+}
+img[Attributes Style] {
+    width: 200px;
+    aspect-ratio: auto 200 / 300;
+    height: 300px;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+.thecontent a, .post .tags a, #commentform a, .author-posts a:hover, .fn a, a {
+    color: #494949;
+}
+a {
+    text-decoration: none;
+    color: #33BCF2;
+    -webkit-transition: color 0.25s ease-in;
+    transition: color 0.25s ease-in;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+::selection {
+    background: #222;
+    color: white;
+    text-shadow: none;
+}
+html {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
