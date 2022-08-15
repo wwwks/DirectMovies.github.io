@@ -6,6 +6,7 @@ img {
     float: left;
     width: 33.33%;
     padding: 5px;
+    border: 1px solid black
 }
 .latestPost {
     width:200px;
@@ -37,30 +38,3 @@ img {
 body {
     background-color: white;
 }
-.wp-block-quote.has-text-align-right{
-    border-left:none;
-    border-right:.25em solid;
-    padding-left:0;padding-right:1em
-}
-.wp-block-search .wp-block-search__label{
-    font-weight:700
-}
-.wp-block-table td,.wp-block-table th{
-    padding:.5em;
-    border:1px solid;
-    word-break:normal
-}
-.wp-block-table
-figcaption{color:#555;font-size:13px;text-align:center}
-.is-dark-theme .wp-block-table
-figcaption{color:hsla(0,0%,100%,.65)}
-.wp-block-video
-figcaption{color:#555;font-size:13px;text-align:center}
-.is-dark-theme .wp-block-video
-figcaption{color:hsla(0,0%,100%,.65)}
-.wp-block-template-part.has-background{
-    padding:1.25em 2.375em;
-    margin-top:0;
-    margin-bottom:0
-}
-
