@@ -2,7 +2,6 @@ $('.search-button').click(function(){
     $(this).parent().toggleClass('open');
   });
 
-<script>
 function myFunction() {
   // Declare variables
   var input, filter, ul, li, a, i, txtValue;
@@ -22,4 +21,5 @@ function myFunction() {
     }
   }
 }
-</script>
+
+function coolTagCloudToggle(element){var parent=element.closest('.cool-tag-cloud');parent.querySelector('.cool-tag-cloud-inner').classList.toggle('cool-tag-cloud-active');parent.querySelector('.cool-tag-cloud-load-more').classList.toggle('cool-tag-cloud-active');}
