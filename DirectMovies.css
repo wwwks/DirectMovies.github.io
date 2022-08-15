@@ -94,3 +94,100 @@ html {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
 }
+
+body, .sidebar.c-4-12, #header #s {
+    background-color: #f0ede9;
+    background-image: url(https://themoviesflix.org.ph/wp-content/uploads/2021/06/pattern15.png);
+}
+#header #s {
+    border-radius: 10px 20px 20px 10px;
+}
+body, .sidebar.c-4-12, #header #s {
+    background-color: #f0ede9;
+}
+#header #s {
+    margin: 0 !important;
+    width: 100%;
+    background: #EFEBE7;
+    border-color: #EFEBE7;
+}
+#s, .woocommerce-product-search .search-field {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    color: #555;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    height: 42px;
+}
+input, textarea, select {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #a4a4a4;
+    border: 1px solid #D8D8D8;
+    font-family: inherit;
+}
+button, input, select, textarea {
+    margin: 0;
+}
+input[type="search" i] {
+    appearance: auto;
+    box-sizing: border-box;
+    padding: 1px 2px;
+}
+
+input {
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+#header .header-search {
+    float: none;
+    width: 100%;
+    max-width: 453px;
+    margin-bottom: 23px;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+}
+#header {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    text-align: center;
+}
