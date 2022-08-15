@@ -191,3 +191,95 @@ input {
     margin-top: 0;
     text-align: center;
 }
+
+#searchform .fa-search {
+    border-radius: 100%;
+}
+#searchform .fa-search, .currenttext, .pagination a:hover, .single .pagination a:hover .currenttext, .page-numbers.current, .pagination .nav-previous a:hover, .pagination .nav-next a:hover, .single-prev-next a, .tagcloud a, #commentform input#submit, .contact-form #mtscontact_submit, .woocommerce-product-search input[type='submit'], .woocommerce-account .woocommerce-MyAccount-navigation li.is-active {
+    background-color: #34963c;
+}
+#searchform .fa-search {
+    font-size: 20px;
+    top: 0px;
+    color: #FFF;
+    background: #33BCF2;
+    position: absolute;
+    right: 0;
+    padding: 9px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.sbutton, #searchsubmit {
+    right: 0;
+    top: 0;
+    padding: 9px 0;
+    float: right;
+    border: 0;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    color: #a4a4a4;
+    -webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    border: 0;
+    vertical-align: top;
+}
+button {
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    cursor: default;
+}
+@media screen and (max-width: 480px)
+#header .header-search, #header .header-social {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: 0;
+    text-align: center;
+    display: block !important;
+}
+@media screen and (max-width: 480px)
+#header .header-search, #header .header-social {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: 0;
+    text-align: center;
+    display: block;
+}
+
