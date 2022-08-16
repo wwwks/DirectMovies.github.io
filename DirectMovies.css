@@ -288,3 +288,11 @@ button {
     display: block;
 }
 
+meta {
+    display: none;
+}
+:root {
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
+}
+
