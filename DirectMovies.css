@@ -103,11 +103,18 @@ body, .sidebar.c-4-12, #header #s {
     padding: 0;
     float: left;
     clear: both;
-    width: 50%;
     position: relative;
 }
-.fa search {
-    background-color:#34963c;
+#header .header-search {
+    float: none;
+    width: 100%;
+    max-width: 453px;
+    margin-bottom: 23px;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
 }
 
 meta {
