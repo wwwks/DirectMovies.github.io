@@ -8,10 +8,6 @@ body {
     font-size: 16px;
     color: #707070;
 }
-body, .sidebar.c-4-12, #header #s {
-    background-color: #f0ede9;
-    background-image: url(https://themoviesflix.org.ph/wp-content/uploads/2021/06/pattern15.png);
-}
 body {
     display: block;
     margin: 8px;
@@ -98,24 +94,6 @@ a:-webkit-any-link {
 html {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
-}
-
-body, .sidebar.c-4-12, #header #s {
-    background-color: #f0ede9;
-    background-image: url(https://themoviesflix.org.ph/wp-content/uploads/2021/06/pattern15.png);
-}
-#header #s {
-    border-radius: 10px 20px 20px 10px;
-}
-body, .sidebar.c-4-12, #header #s {
-    background-color: #f0ede9;
-}
-#header #s {
-    margin: 0 !important;
-    width: 100%;
-    background: #EFEBE7;
-    border-color: #EFEBE7;
-}
 }
 input[type="search" i] {
     padding: 12px 20px;
