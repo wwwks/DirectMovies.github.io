@@ -95,16 +95,20 @@ html {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
 }
-input[type="search" i] {
-    padding: 12px 20px;
-    position: relative;
-    z-index: 0;
-    margin: 4px;
-    min-width: 160px;
-    box-shadow: 0 5px 14px -7px #fff !important;
-    background: #0ca308;
+body, .sidebar.c-4-12, #header #s {
+    background-color: #e7e7e7;
+    background-image: url(https://themoviesflix.org.ph/wp-content/uploads/2021/06/pattern15.png);
 }
-
+#searchform {
+    padding: 0;
+    float: left;
+    clear: both;
+    width: 50%;
+    position: relative;
+}
+.fa search {
+    background-color:#34963c;
+}
 
 meta {
     display: none;
