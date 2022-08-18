@@ -9,7 +9,7 @@
 .logo-wrap {
     padding: 0 0 0 25px;
     overflow: hidden;
-    float: left;
+    float: center;
     display: inline-block;
     box-sizing: border-box;
 }
@@ -62,7 +62,7 @@ media screen and (max-width: 728px)
     letter-spacing: 0;
 }
 #logo a {
-    float: left;
+    float: center;
     line-height: 1;
 }
 a:link, a:visited, a:active {
@@ -81,7 +81,7 @@ img[Attributes Style] {
     color: #33bcf2;
 }
 #logo a {
-    float: left;
+    float: center;
     line-height: 1;
 }
 
