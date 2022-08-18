@@ -1,7 +1,91 @@
-tittle {
-    color: black;
-    font-size: 60px
+@media screen and (max-width: 728px)
+.logo-wrap {
+    margin-bottom: 10px;
+    margin-top: 0;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
 }
+.logo-wrap {
+    padding: 0 0 0 25px;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 728px)
+#header h1, #header h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.image-logo {
+    margin-top: 10px;
+}
+@media screen and (max-width: 728px)
+#header h1, #header h2, .site-description {
+    float: none;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 32px;
+    color: #555;
+}
+h1 {
+    line-height: 1.1;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #555;
+}
+
+media screen and (max-width: 728px)
+#logo a, #logo img {
+    float: none!important;
+    letter-spacing: 0;
+}
+#logo a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 44px;
+    color: #33bcf2;
+}
+@media screen and (max-width: 728px)
+#logo a, #logo img {
+    float: none!important;
+    letter-spacing: 0;
+}
+#logo a {
+    float: left;
+    line-height: 1;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+img[Attributes Style] {
+    width: 160px;
+    aspect-ratio: auto 160 / 40;
+    height: 40px;
+}
+#logo a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 44px;
+    color: #33bcf2;
+}
+#logo a {
+    float: left;
+    line-height: 1;
+}
+
+
 
 html {
     overflow-x: hidden;
