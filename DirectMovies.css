@@ -722,4 +722,43 @@ img {
     height: auto!important;
 }
 
+.alert {
+    padding: 5px;
+    background-color: #479e47;
+    color: white;
+    width: 90%;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+center {
+    text-align: -webkit-center;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+font[Attributes Style] {
+    color: rgb(255, 255, 255);
+    font-size: medium;
+}
+font[Attributes Style] {
+    color: rgb(255, 255, 255);
+    font-size: medium;
+}
+.alert a {
+    color: white;
+    text-decoration: none;
+}
+
+
 
