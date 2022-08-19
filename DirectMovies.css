@@ -475,6 +475,24 @@ article header {
     float: left;
     width: 100%;
 }
+header {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
 @media screen and (max-width: 480px)
 article.latestPost .title, article.latestPost .title a {
     font-size: 14px;
@@ -519,6 +537,17 @@ article.latestPost .title, article.latestPost .title a {
     width: 48%!important;
     margin-right: 2.6%;
 }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: #33BCF2;
+    -webkit-transition: color 0.25s ease-in;
+    transition: color 0.25s ease-in;
+}
+
 
 a:link, a:visited, a:active {
     text-decoration: none;
