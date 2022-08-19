@@ -792,5 +792,132 @@ font[Attributes Style] {
     text-decoration: none;
 }
 
+@media screen and (max-width: 865px)
+footer .container {
+    padding: 0 2%;
+}
+footer .container {
+    background: #fff;
+    padding: 0;
+}
+@media screen and (max-width: 865px)
+#page, .container {
+    max-width: 100%;
+}
+#page, .container {
+    max-width: 1170px;
+    min-width: 240px;
+}
+#page, .container {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (max-width: 960px)
+.copyrights {
+    text-align: center;
+}
+@media screen and (max-width: 960px)
+.copyrights {
+    padding-bottom: 10px;
+}
+.copyrights {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-bottom: 29px;
+    padding-top: 38px;
+}
+#copyright-note {
+    width: 1170px;
+    margin: 0 auto;
+    clear: both;
+    max-width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #a4a4a4;
+}
+@media screen and (max-width: 960px)
+.copyright, .top {
+    float: none;
+    text-align: center;
+}
+@media screen and (max-width: 960px)
+.copyright, .top {
+    float: none;
+    text-align: center;
+}
+.copyrights a {
+    color: #a4a4a4;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+footer a {
+    color: #555;
+}
+@media screen and (max-width: 960px)
+a.toplink {
+    top: 10px;
+}
+a.toplink {
+    font-size: 40px;
+    line-height: 15px;
+    position: absolute;
+    left: 50%;
+    margin-left: -13px;
+}
+.copyrights a {
+    color: #a4a4a4;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+footer a {
+    color: #555;
+}
+.top {
+    float: right;
+    position: relative;
+    text-align: initial;
+}
+@media screen and (max-width: 480px)
+#navigation {
+    border-bottom: 0;
+}
+@media screen and (max-width: 865px)
+#navigation {
+    height: auto;
+}
+.clearfix {
+    *zoom: 1;
+}
+#footer-navigation #navigation li {
+    display: inline-block;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-right: 1px solid #d2d2d2;
+    line-height: 1;
+    width: auto!important;
+    float: none;
+}
+#footer-navigation li:first-child {
+    padding-right: 0;
+    border-right: 0;
+}
+@media screen and (max-width: 865px)
+#navigation li, .navigation ul li li {
+    width: 100%!important;
+    float: left;
+    position: relative;
+}
+@media screen and (max-width: 865px)
+#navigation li, .navigation ul li li {
+    width: 100%!important;
+    float: left;
+    position: relative;
+}
+
+
 
 
