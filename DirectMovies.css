@@ -404,6 +404,20 @@ input, textarea {
     clear: none!important;
 }
 
+@media screen and (max-width: 865px)
+.latestPost:nth-of-type(2n+2) {
+    margin-right: 0;
+    clear: none;
+    float: right;
+}
+
+@media screen and (max-width: 900px)
+article.latestPost .title, article.latestPost .title a {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+
 media screen and (max-width: 480px)
 .latestPost {
     width: 155px!important;
@@ -428,6 +442,74 @@ media screen and (max-width: 480px)
     position: relative;
 }
 
+.latestPost .title, .latestPost .title a {
+    font-family: 'Alef';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    line-height: 20px;
+    text-align: center;
+}
+.latestPost .title, .latestPost .title a {
+    font-family: 'Alef';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    line-height: 20px;
+}
+
+.latestPost header {
+    padding: 15px 20px 14px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    min-height: 135px;
+}
+.latestPost header {
+    padding: 12px 10px 13px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    height: 150px;
+}
+article header {
+    margin-bottom: 11px;
+    float: left;
+    width: 100%;
+}
+@media screen and (max-width: 480px)
+article.latestPost .title, article.latestPost .title a {
+    font-size: 14px;
+}
+@media screen and (max-width: 900px)
+article.latestPost .title, article.latestPost .title a {
+    font-size: 20px;
+    line-height: 1.4;
+}
+.latestPost .title, .latestPost .title a {
+    font-family: 'Alef';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    line-height: 20px;
+    text-align: center;
+}
+.latestPost .title {
+    display: block;
+    margin-bottom: 7px;
+}
+.latestPost .title, .latestPost .title a {
+    font-family: 'Alef';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    line-height: 20px;
+}
+.latestPost .title {
+    display: block;
+    margin-bottom: 7px;
+}
+.title {
+    clear: both;
+}
 @media screen and (max-width: 480px)
 .latestPost {
     width: 155pximportant;
