@@ -362,7 +362,7 @@ button {
     border-radius: 100%;
 }
 #searchform .fa-search, .currenttext, .pagination a:hover, .single .pagination a:hover .currenttext, .page-numbers.current, .pagination .nav-previous a:hover, .pagination .nav-next a:hover, .single-prev-next a, .tagcloud a, #commentform input#submit, .contact-form #mtscontact_submit, .woocommerce-product-search input[type='submit'], .woocommerce-account .woocommerce-MyAccount-navigation li.is-active {
-    background-color: #2172e7 url(search-icon) 123px 15px no-repeat;
+    background-color: #2172e7;
 }
 #searchform .fa-search {
     font-size: 20px;
